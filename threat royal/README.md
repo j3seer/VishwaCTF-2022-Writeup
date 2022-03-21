@@ -16,9 +16,9 @@ in this challenge we were provided a pdf with instructions and details about the
 to start off, i started looking at the full report in the Bevigil website of the "Clean your phone" App 
 Found this pastebin link 
 
-``
+```
 https://pastebin.com/raw/ZTqJjZgN 
-``
+```
 
 Which has this : 
 
