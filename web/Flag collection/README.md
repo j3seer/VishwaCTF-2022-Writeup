@@ -17,6 +17,12 @@ searching for a while found a good resource here :
 
 i tried using a python script , some other tools. eventually the tool Baserunner worked !
 
+first step is to collect all the config elements as well as the db url !! which is the most important, then you have to READ a collection. replacing ==COLLECTION== with flag will print out all the elements inside the flag table/collection.
+
+![image](https://user-images.githubusercontent.com/58823465/159277688-8f8e8fec-574f-4ac2-b8bb-616429eae4be.png)
+
+output:
+![image](https://user-images.githubusercontent.com/58823465/159277880-b3e912cf-f49c-4819-a251-9d397593b8cd.png)
 
 
 And there's our flag:
