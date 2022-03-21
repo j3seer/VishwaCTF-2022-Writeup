@@ -5,9 +5,9 @@ Somebody hosted this website having flag in it. Just request the FLAG to them ma
 -----------------------------------------------------------
 This challenge took us a while.. but the solution was pretty simple.
 
-Just intercept the request and change the method to FLAG:
+Just intercept the request with burp and change the method to FLAG:
 
-
+![image](https://user-images.githubusercontent.com/58823465/159277051-7984258e-3c6f-471b-8b35-4ddaeb6c9bf8.png)
 
 
 And there's the flag
