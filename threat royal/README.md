@@ -8,8 +8,9 @@ Attend this webinar, a file will be provided, solve it to get the flag!
 
 -----------------------------------------------------------
 
-in this challenge we were provided a pdf with instructions and details about the challenge
+in this challenge we were provided a pdf with instructions and details about the challenge:
 
+[threat_royale.pdf](https://github.com/j3seer/VishwaCTF-2022-Writeup/files/8316461/threat_royale.pdf)
 
 
 to start off, i started looking at the full report in the Bevigil website of the "Clean your phone" App 
