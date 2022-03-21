@@ -8,11 +8,12 @@ We were given a wav file which contained a pastebin link in it's spectrum.
 
 Using sonic visualizer we can see it:
 
-![image](https://user-images.githubusercontent.com/58823465/159286765-adfb9f18-19c0-4d6c-9927-70ad9ea30ecb.png)
+![image](https://user-images.githubusercontent.com/58823465/159286736-8f76caa4-ac33-46f0-b63a-89bbd35fba44.png)
 
 this link had what seems to be a hexdump of a file.
 
-![image](https://user-images.githubusercontent.com/58823465/159286736-8f76caa4-ac33-46f0-b63a-89bbd35fba44.png)
+![image](https://user-images.githubusercontent.com/58823465/159286765-adfb9f18-19c0-4d6c-9927-70ad9ea30ecb.png)
+
 
 
 After alot of searching i found out that this is jpeg image, and we can tell because of the file headers
